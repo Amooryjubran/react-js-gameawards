@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80');
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+  .App{
+      
+    background-color: whitesmoke;
+    max-width: 992px;
+    margin: auto;
+  }
+
+  .home-image {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://gameranx.com/wp-content/uploads/2018/12/game-awards-opening.png');
+    background-size: cover;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-image:hover {
+    background-image: url('https://pbs.twimg.com/media/EJwKnVyUYAUXlSu.jpg');
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.home-thumbnail-1,
+.home-thumbnail-2,
+.home-thumbnail-3{
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    transition: all 0.3s ease-in-out;
+}
+.home-thumbnail-1:hover,
+.home-thumbnail-2:hover,
+.home-thumbnail-3:hover{
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+.home-thumbnail-1 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSer6ZurVWozOi2oPNaRujKGP15K_ck65GFcUWGosZtFGmIzkoh');
+}
+
+.home-thumbnail-2 {
+    background-image: url('https://i.ytimg.com/vi/_RTPTCdAX48/maxresdefault.jpg');
+}
+
+.home-thumbnail-3 {
+    background-image: url('https://images.pushsquare.com/862f4c9a08c9c/kojima-productions-sony-geoff-keighley-the-game-awards-2018.original.jpg');
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 100%;
+}
+  nav {
+    border-bottom: 1px solid grey;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#223343;
+}
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu__link {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid lightgray;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.nav-menu__link:hover {
+    border: 1px solid black;
+    background-color: rgb(228, 228, 228);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-menu__link.active {
+    background-color: rgb(77, 43, 131);
+    color: #fff;
+}
+.logo-link {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.main-content h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.actor-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.actor-image {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.actor-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.actor-image:hover {
+    cursor: pointer;
+}
+
+.actor-profile-image {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+.back {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid lightgray;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: rgb(149, 216, 238);
+    text-decoration: none;
+}
+
+.image-profile{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
